@@ -1,0 +1,18 @@
+The ConstantThought CD Tools Package is a set of tools mainly meant for Playstation development and those still doing psxdev.
+
+Highlights include (among other things):
+
+MakeCTI
+Makes a CTI file based on a directory structure you've built locally.  You can then make a CD image based on this by using BUILDCD.
+
+StripISOToo and Revenge of StripISO
+Replacements for STRIPISO that work under Windows XP!
+
+ISOTrim
+Basically just tries to chop extra data off the end of an image file that has extra data at the end.  Among other things, it can therefore sorta convert a Nero image into a plain 2048 byte-per-sector ISO.
+
+strip2048
+Converts 2352 byte per sector CD images (or PSX license files!) to 2048 byte per sector images.
+
+PadFileMaker
+Creates files filled with 0 bytes or a repeating user-defined string.  More fun than than usual ways of making them or getting them!
