@@ -1,1 +1,0 @@
-@start /wait makecti /overwrite /sa /usalicense.iso /2e .str /2e .xa %1 %2 %3 %4 %5 %6 %7 %8 %9
