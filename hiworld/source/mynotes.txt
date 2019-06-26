@@ -3,3 +3,9 @@ C:\ps1\ePSXe.exe -loadiso C:\psyq\projects\hiworld\source\cdrom\HIWORLD.ISO -nog
 C:\ps1\ePSXe.exe "MAIN.EXE" -nogui
 
 Notepad++ run: CMD /K cd /d  $(CURRENT_DIRECTORY) && psymake && C:\ps1\ePSXe.exe "MAIN.EXE" -nogui && exit
+
+
+CMD /K cd /d  $(CURRENT_DIRECTORY) && psymake && C:\nopsx\ePSXe.exe "MAIN.EXE" -nogui && exit
+
+
+CMD C:\nopsx\NO$PSX.EXE && exit

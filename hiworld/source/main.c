@@ -70,12 +70,12 @@ int main(void)
 
 	// should debug = 1 (as seen above), print to the debug window (should you be using one)
 	if (DEBUG) printf("\n\nPievin eka ps1 demo\n");
-	if (DEBUG) printf("\nhttps://aika.zapto.org/");
+	if (DEBUG) printf("\nhttp://aika.zapto.org/");
 
 	// draw and display forever
 	while (1)
 	{
-		FntPrint("             PIEVIN EKA PS1 DEMO\n\n           HTTPS://AIKA.ZAPTO.ORG/"); // use '\n' to make a new line
+		FntPrint("             PIEVIN EKA PS1 DEMO\n\n           HTTP://AIKA.ZAPTO.ORG/"); // use '\n' to make a new line
 		display();
 	}
 
